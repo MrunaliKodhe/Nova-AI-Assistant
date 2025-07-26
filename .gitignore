@@ -1,0 +1,19 @@
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment files
+.env
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore editor configs
+.vscode/
+
+# macOS files
+.DS_Store
