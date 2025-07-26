@@ -1,19 +1,18 @@
-
-# Ignore Python cache and compiled files
-__pycache__/
+# Python ignores
 *.py[cod]
-*$py.class
+__pycache__/
+*.log
 
-# Ignore environment files
+# Env files
 .env
 
-# Ignore virtual environments
+# Virtual environments
 venv/
 ENV/
 env/
 
-# Ignore editor configs
+# VSCode
 .vscode/
 
-# macOS files
+# macOS
 .DS_Store
